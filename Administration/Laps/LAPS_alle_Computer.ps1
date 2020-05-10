@@ -1,0 +1,1 @@
+get-adcomputer -filter {ms-mcs-admpwdexpirationtime -like '*'} -prop 'ms-mcs-admpwd', 'ms-mcs-admpwdexpirationtime' |select Name, ms-mcs-admpwd, ms-mcs-admpwdexpirationtime | Out-GridView
