@@ -1,0 +1,1 @@
+﻿Get-ADDomainController –filter * | `select hostname,IPv4Address,IsGlobalCatalog,IsReadOnly,OperatingSystem |Out-GridView
