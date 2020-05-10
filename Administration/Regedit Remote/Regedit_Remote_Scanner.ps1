@@ -6,7 +6,7 @@ $key = "CachedLogonsCount"
   
 ####################Define email Variables#################################
   
-$smtphost = "smtp-int.remondis.local" 
+$smtphost = "smtp-server" 
 $from = "Registry_value@fqdn.de" 
 $to = "your.name@fqdn.de" 
   
