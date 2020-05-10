@@ -1,0 +1,1 @@
+Get-ADUser -Filter * -Properties “LastLogonDate” |select Name, LastLogonDate |Out-GridView
