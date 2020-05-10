@@ -1,0 +1,1 @@
+get-aduser -filter {ServicePrincipalName -like "*"} -Property serviceprincipalname | Out-GridView
