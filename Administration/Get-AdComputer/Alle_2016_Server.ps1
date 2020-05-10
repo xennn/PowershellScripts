@@ -1,0 +1,1 @@
+Get-ADComputer -Filter "OperatingSystem -like 'Windows Server 2016*'" -Properties * | Select-Object Name,IPv4Address ,DistinguishedName, OperatingSystem, LastLogonDate | Out-GridView

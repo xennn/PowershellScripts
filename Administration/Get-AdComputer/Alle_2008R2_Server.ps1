@@ -1,0 +1,1 @@
+Get-ADComputer -Filter "OperatingSystem -like '*2008 R2*'" -Properties * | Select-Object Name,IPv4Address ,DistinguishedName, OperatingSystem, LastLogonDate | Out-GridView

@@ -1,0 +1,1 @@
+Get-ADComputer -Filter "OperatingSystem -like 'Windows Server 2012 R2 Datacenter'" -Properties * | Select-Object Name,IPv4Address ,DistinguishedName, OperatingSystem, LastLogonDate | Out-GridView
